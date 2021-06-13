@@ -1,0 +1,324 @@
+.site{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.headercontainer{
+	position: relative;
+	display: -webkit-flex;
+	margin: 0px;
+	padding: 0px;
+	height: 76px;
+	z-index: 1;
+	box-shadow: 2px;
+	max-width: 1200px;
+}
+
+.headerbg{
+	position: relative;
+	width: 1200px;
+	z-index: -1;
+	height:76px;
+	top: 9px;
+}
+
+.headerlogo{
+	position: absolute;
+	display: -webkit-flex;
+	top: 16px;
+	height: 44px;
+	bottom: 16px;
+	margin: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.menu{	
+	position: absolute;
+	list-style-type: none;
+	top: 26px;
+	left: 126px;	
+	margin: 0px;
+	padding: 0px;
+	max-height: 76px;
+}
+
+.menuli {
+	display: inline;
+	padding-right: 32px;
+}
+
+.menuli a {
+	font-family: 'PT Sans';
+	text-decoration: none;
+	color: #1A2026;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.sign{
+	position: absolute;
+	list-style-type: none;
+	top: 26px;
+	right: 150px;	
+	margin: 0px;
+	padding: 0px;
+	max-height: 76px;
+}
+
+.signli{
+	display: inline;
+	padding-right: 40px;
+}
+
+.signli a{
+	font-family: 'PT Sans';
+	text-decoration: none;
+	color: #74A53B;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.signbutton{
+	position: absolute;
+	background-color: #74A53B; 
+	font-family: 'PT Sans';
+  	border: none;
+  	color: #FFFFFF;
+  	border-radius: 4px;
+  	padding: 12px 32px;
+  	height: 44px;
+  	right: 40px;
+  	top: 16px;
+  	bottom: 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	font-weight: bold;
+  	z-index: 2;
+}
+
+.banner{
+	padding: 0px;
+	margin: 0px;
+	max-width: 1200px;
+	z-index: -2;
+}
+.bannerimg{
+	margin: 0px;
+	padding: 0px;
+	display: -webkit-flex;
+	max-width: 1200px;
+	max-height: 270px;
+}
+
+.submenu1{
+	font-family: 'PT Sans';
+	text-decoration: none;
+	color: #74A53B;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 32px;
+	margin-left: 118px;
+	margin-bottom: 8px;
+	width: 1200px;
+}
+
+hr{
+	border: 2px	solid #74A53B;
+	width: 960px;
+}
+
+.signupform{
+	position: relative;
+	display: block;
+	max-width: 1200px;
+	margin-left: 400px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-family: 'PT Sans';
+	text-decoration: none;
+	color: #74A53B;
+	font-size: 16px;
+	
+
+}
+
+.formtitle{
+	font-family: 'PT Sans';
+	text-decoration: none;
+	color: #74A53B;
+	font-size: 16px;
+}
+
+.loginput{
+	width: 400px;
+	height: 32px;
+	color: #1A2026;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #74A53B;
+	padding-left: 16px;
+	margin: auto;
+}
+
+.checkdiv{
+	position: relative;
+}
+
+.check{
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+}
+
+.conditions{
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+	left: 0px;
+}
+
+.footer {
+	position: relative;
+	top: 40px;
+	background: #FFF8EF;
+	width: 1200px;
+	height: 390px;
+}
+
+.footer p {
+	font-family: 'PT Sans';
+	color: #69717A;
+}
+
+.contactus{
+	font-family: 'PT Sans';
+	color: #69717A;
+	display: inline-block;
+	position: absolute;
+	width: 468px;
+	height: 350px;
+	left: 118px;
+	top: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	
+}
+
+.footertitle{
+	font-size: 28px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	margin-top: 40px;
+	top: 0px;
+}
+
+.footertext{
+	font-size: 16px;
+	margin: 0px;
+	width: 468px;
+}
+
+.companyname{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 32px;
+	margin-bottom: 0px;
+}
+
+.adress{
+	font-size: 14px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+.contactform{
+	position: absolute;
+	display: inline-block;
+	margin-left: 12px;
+	width: 468px;
+	height: 363px;
+	font-size: 13px;
+	font-family: 'PT Sans';
+	color: #69717A;
+	top: 0px;
+	right: 118px;
+}
+
+.contactform form {
+	width: 468px;
+}
+
+.fullnametitle{
+	margin-top: 40px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: #69717A;
+}
+.fullname{
+	width: 450px;
+	height: 32px;
+	color: #1A2026;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #69717A;
+	padding-left: 16px;
+}
+
+.emailtitle{
+	margin-top: 16px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: #69717A;
+}
+.email{
+	width: 450px;
+	height: 32px;
+	color: #1A2026;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #69717A;
+	padding-left: 16px;
+}
+
+.messagetitle{
+	margin-top: 16px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: #69717A;
+}
+
+.message{
+	width: 450px;
+	height: 70px;
+	color: #1A2026;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #69717A;
+	padding-left: 16px;
+}
+
+.sendbutton{
+	background-color: #FFF8EF; 
+	font-family: 'PT Sans';
+	border-style: solid;
+  	border-width: 1px;
+  	border-color: #74A53B;
+  	color: #74A53B;
+  	border-radius: 4px;
+  	padding: 0px 30px;
+  	height: 36px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	font-weight: bold;
+  	z-index: 2;
+  	margin-top: 14px;
+}

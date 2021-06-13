@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="dwstylesheet.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link href='https://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
+
+</head>
+<body class="site">
+<header class="headercontainer">
+	<img src="img/Header_Background.png" class="headerbg">
+	<img src="img/Header_Logo.png" class="headerlogo">
+	<ul class="menu">
+		<li class="menuli" ><a href="Home">Home</a></li>
+		<li class="menuli" ><a href="About">About</a></li>
+		<li class="menuli" ><a href="Contact">Contact</a></li>
+	</ul>
+	<ul class="sign">
+		<li class="signli" ><a href="Sign In">Sign In</a></li>
+	</ul>
+	<input type="image" class="cartbutton" src="img/Cart Icon.png" alt="cart">
+</header>
+<main>
+<div class="banner">
+	<img src="img/Banner Small.png" class="bannerimg">
+</div>
+<div class="card">
+	<div class="cardimage">
+		<img src="img/Piersici Liofilizata.png">
+	</div>
+	<img class="microfoto1 w3-hover-opacity" src="img/piersicifeliati.png" >
+	<img class="microfoto2" src="img/cutie.jpg">
+	<img class="microfoto3" src="img/packfrontpiersici.jpg">
+	<img class="microfoto4" src="img/packbackpiersici.jpg">
+</div>
+<div class="description">
+	<form method="post" action="index.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>
+		<p class="cardtitle">Piersică Liofilizată</p>
+		<p class="price">15.90</p>
+		<p class="courency">Ron/Buc</p>
+		<hr class="line1">
+		<p class="cardtext">Chiar dacă ești un chef sau un bucătar sufletist ne bucurăm, că putem recomanda aceste produse variate și de calitate trimitând la domiciliu sau la cercul de cumpărători.<br><br>
+		La achiziționarea a 5 pachete veți beneficia de livrare gratis, altfel livrarea vă costă 15 Ron</p>
+		<p class="droptitle">Cantitate</p>
+		<input type="text" class="product-quantity" name="quantity" value="1" size="2" />
+		<button class="addtocartbutton" type="submit" >Adaugă în Coș</button>
+	</form>
+</div>
+	<hr class="line2">
+
+<div class="card1">
+	<p class="card1title">Zmeură Liofilizată</p>
+	<img src="img/Mere Liofilizata.png">
+</div>
+<div class="card2">
+	<p class="card1title">Măr Liofilizat</p>
+	<img src="img/Mere Liofilizata.png">
+</div>
+<div class="card3">
+	<p class="card1title">Pară Liofilizată</p>
+	<img src="img/Pere Liofilizata.png">
+</div>
+<div class="card4">
+	<p class="card1title">Căpșună Liofilizată</p>
+	<img src="img/Capsuni Liofilizata.png">
+</div>
+
+
+<div class="footer">
+	<div class="contactus">
+		<p class="footertitle">Contact Us</p>
+		<p class="footertext">Pentru mai multe informații vă rog să ne contactați prin E-mail (liofeel.office@gmail.com) sau prin completarea formularului din dreapta.</p>
+		<p class="companyname">Lio Fruct Factory SRL</p>
+		<p class="adress">Miercurea-Ciuc,<br>str. Muller Laszlo, nr.2C.16,<br> jud. Harghita, Romania</p>
+	
+	</div>
+	<div class="contactform">
+		<form>
+			<p class="fullnametitle">Full Name</p>
+  			<input class="fullname" type="text" name="fullname">
+  			<p class="emailtitle">Email Address</p>
+  			<input class="email" type="email" name="email">
+  			<p class="messagetitle">Message</p>
+  			<input class="message" type="text" name="message">
+  			<input class="sendbutton" type="submit" value="Send">
+		</form>
+	</div>
+</div>
+</main>
+</body>
+</html>
